@@ -1,0 +1,117 @@
+[
+  {
+    "Language": "English",
+    "wordForMother": "Mother",
+    "placeOfOrigin": "U.K.",
+    "timeOfOrigin": "middle",
+    "image": "hello"
+  },
+  {
+    "Language": "Malayalam",
+    "wordForMother": "Amma",
+    "placeOfOrigin": "Kerala",
+    "timeOfOrigin": "middle"
+  },
+  {
+    "Language": "Afrikaans",
+    "wordForMother": "Moeder",
+    "placeOfOrigin": "South Africa",
+    "timeOfOrigin": "late"
+  },
+  {
+    "Language": "Arabic",
+    "wordForMother": "Ahm",
+    "placeOfOrigin": "Arabic Peninsula",
+    "timeOfOrigin": "old"
+  },
+  {
+    "Language": "Belarusian",
+    "wordForMother": "Matka",
+    "placeOfOrigin": "Belarus",
+    "timeOfOrigin": "middle"
+  },
+  {
+    "Language": "Bulgarian",
+    "wordForMother": "Majka",
+    "placeOfOrigin": "Bulgaria",
+    "timeOfOrigin": "middle"
+  },
+  {
+    "Language": "Telegu",
+    "wordForMother": "Talli",
+    "placeOfOrigin": "Andhra Pradesh and Telengana",
+    "timeOfOrigin": "middle"
+  },
+  {
+    "Language": "Hindi",
+    "wordForMother": "Maji",
+    "placeOfOrigin": "India",
+    "timeOfOrigin": "middle"
+  },
+  {
+    "Language": "Japanese",
+    "wordForMother": "Okaasan",
+    "placeOfOrigin": "Japan",
+    "timeOfOrigin": "middle"
+  },
+  {
+    "Language": "Persian",
+    "wordForMother": "Madr",
+    "placeOfOrigin": "Persia",
+    "timeOfOrigin": "old"
+  },
+  {
+    "Language": "Mongolian",
+    "wordForMother": "Eej",
+    "placeOfOrigin": "Mongolia",
+    "timeOfOrigin": "middle"
+  },
+  {
+    "Language": "Samoan",
+    "wordForMother": "Tina",
+    "placeOfOrigin": "Polynesia",
+    "timeOfOrigin": "late"
+  },
+  {
+    "Language": "Urdu",
+    "wordForMother": "Ammee",
+    "placeOfOrigin": "Iran",
+    "timeOfOrigin": "middle"
+  },
+  {
+    "Language": "Yiddish",
+    "wordForMother": "Muter",
+    "placeOfOrigin": "Europe",
+    "timeOfOrigin": "middle"
+  },
+  {
+    "Language": "Swahili",
+    "wordForMother": "Mzazi",
+    "placeOfOrigin": "East Africa",
+    "timeOfOrigin": "late"
+  },
+  {
+    "Language": "Greek",
+    "wordForMother": "Mana",
+    "placeOfOrigin": "Greece",
+    "timeOfOrigin": "old"
+  },
+  {
+    "Language": "Tagalong",
+    "wordForMother": "Ina",
+    "placeOfOrigin": "Philippines",
+    "timeOfOrigin": "middle"
+  },
+  {
+    "Language": "Spanish",
+    "wordForMother": "Madre",
+    "placeOfOrigin": "Spain",
+    "timeOfOrigin": "middle"
+  },
+  {
+    "Language": "Mandarin",
+    "wordForMother": "Mǔqīn",
+    "placeOfOrigin": "China",
+    "timeOfOrigin": "middle"
+  }
+]

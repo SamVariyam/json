@@ -1,0 +1,195 @@
+/* Just to make the demo easier to work with. */
+
+:root {
+	--spacing: 1em;
+}
+
+@media (max-width: 40em) {
+	body {
+	  background-color: lightblue;
+	  font-size:15px;
+	}
+	h1{
+		font-size:30px;
+	}
+  }
+
+body {
+    font-family: "elza", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+	font-size:20px;
+	background-color: #E2DCC4;
+    color: #0c250c;
+}
+.heading{
+	text-align:center;
+	padding-left:10vw;
+	padding-right:10vw;
+
+}
+h1 {
+	font-weight:900;
+	font-size:40px;
+	text-align:center;
+}
+
+.key{
+	display:flex;
+	flex-direction:column;
+	gap:10px;
+	border-style:solid;
+	border-width:1px;
+	border-radius:30px;
+	padding:20px;
+	text-align:center;
+}
+	
+	#dragable {
+	width: 21rem;
+	border: 1px solid #0c250c;
+	border-radius: 30px;
+	position: absolute;
+	z-index: 9;
+	box-shadow: 2px 4px 18px rgba(0, 0, 0, 0.2);
+	transition: border-color 0.2s, box-shadow 0.2s;
+	}
+	
+	#dragable.drag {
+	box-shadow: 3px 6px 24px rgba(0, 0, 0, 0.5);
+	}
+	
+	#dragable #dragzone {
+	width: 100%;
+	height: 100%;
+	cursor: move;
+	z-index: 10;
+	}
+
+.colorone{
+	height: 25px;
+  width: 25px;
+	background-color:#AFBBB9;
+  border-radius: 50%;
+  border-color:#0c250c;
+  border-style:solid;
+  display: inline-block;
+}
+
+.colortwo{
+	height: 25px;
+  width: 25px;
+	background-color:#96B87B;
+  border-radius: 50%;
+  border-color:#0c250c;
+  border-style:solid;
+  display: inline-block;
+}
+
+.colorthree{
+	height: 25px;
+  width: 25px;
+	background-color:#DFB9B9;
+  border-radius: 50%;
+  border-color:#0c250c;
+  border-style:solid;
+  display: inline-block;
+}
+
+.colorfour{
+	height: 25px;
+  width: 25px;
+	background-color:#E2DCC4;
+  border-radius: 50%;
+  border-color:#0c250c;
+  border-style:solid;
+  display: inline-block;
+}
+.label{
+	display:flex;
+	gap:7px;
+}
+h2{
+    font-weight:900;
+}
+
+.mother{
+    opacity:0;
+    font-weight:900;
+    font-size:36px;
+}
+
+.mother:hover{
+    opacity:100;
+    font-weight:900;
+}
+/*has entire collection of items*/
+#collection {
+	display: flex;
+	justify-content: space-evenly safe;
+}
+
+.scrolling{
+	flex-direction:row;
+	align-items:center;
+	overflow-x:scroll;
+}
+
+.mother-box {
+	border: 1px solid;
+    border-color:#254426;
+    border-radius:85px;
+	padding:20px;
+	min-width:200px;
+	min-height:300px;
+	margin:10px;
+	position: relative;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+	justify-content:center;
+    text-align:center;
+}
+
+.mother-box:hover{
+    cursor:pointer;
+}
+
+.old {
+	background-color:#AFBBB9;
+}
+
+.middle {
+	background-color:#96B87B;
+	color:white;
+}
+
+.late {
+	background-color:#DFB9B9;
+}
+
+.modern {
+	background-color:#E2DCC4;
+}
+
+
+.dot-container{
+	display: flex;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+
+.activity-title{
+	position: absolute;
+	left: 2rem;
+	top: 2rem;
+	color: white;
+	font-size: 1rem;
+	display: none;
+}
+
+.dot-container:hover .activity-title{
+	display: block;
+}
+
